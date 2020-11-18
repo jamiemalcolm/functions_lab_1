@@ -51,3 +51,7 @@ def number_to_short_month_name( a ):
 
 def find_volume( a ):
     return a ** 3
+
+def reversed_string(a):
+    return a[::-1]
+   
