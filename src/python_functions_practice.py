@@ -1,17 +1,16 @@
 def return_10():
     return 10
 
-def add(a, b):
-    return a + b
+def add(num_1, num_2):
+    return num_1 + num_2
 
-def subtract(a, b):
-    return a - b
+def subtract(num_1, num_2):
+    return num_1 - num_2
+def multiply(num_1, num_2):
+    return num_1 * num_2
 
-def multiply(a, b):
-    return a * b
-
-def divide(a, b):
-    return a / b
+def divide(num_1, num_2):
+    return num_1 / num_2
 
 def length_of_string(test_string):
     return len(test_string)
@@ -53,5 +52,9 @@ def find_volume( a ):
     return a ** 3
 
 def reversed_string(a):
+    #reversed_string = a.reversed()
+    #return reversed_string
     return a[::-1]
-   
+
+def temp_converter(degree):
+    return (degree - 32) * 5/9
